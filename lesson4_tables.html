@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+</head>
+<body>
+<table border="2" align="center" width="80%" cellspacing="0"> <!--атрибуты по таблице:
+border-задает толщину рамки
+bordercolor- отвечает за цвет рамки
+cellspacing- удаление отступов между ячейками
+dgcolor- цвет фона
+cellpadding- расстояние между контейнером и рамкой ячейки
+align- выравнивание содержимого ячейки
+width- ширина таблицы
+heigth- высота таблицы
+
+но лучше все это делать через CSS, там все более гибкое и настраиваемое-->
+  <tr>
+    <th>столбец</th>
+    <th>столбец</th>
+    <th>столбец</th>
+  </tr>
+  <tr align="center">
+    <td colspan="3">ячейка</td> <!--объединяет ячейки по горизонтали, rowspan объединяет по вертикали-->
+
+
+  </tr>
+  <tr>
+    <td rowspan="3"><table border="2" align="center" width="99%" cellspacing="0">
+      <tr>
+        <td>ячейка</td>
+        <td>ячейка</td>
+        <td>ячейка</td>
+      </tr>
+      <tr>
+        <td>ячейка</td>
+        <td>ячейка</td>
+        <td>ячейка</td>
+      </tr>
+      <tr>
+        <td>ячейка</td>
+        <td>ячейка</td>
+        <td>ячейка</td>
+      </tr>
+    </table></td>
+    <td>ячейка</td>
+    <td>ячейка</td>
+  </tr>
+  <tr>
+
+    <td>ячейка</td>
+    <td>ячейка</td>
+  </tr>
+  <tr>
+
+    <td>ячейка</td>
+    <td>ячейка</td>
+  </tr>
+</table>
+</body>
+</html>
