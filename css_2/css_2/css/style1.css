@@ -58,3 +58,31 @@ h2{
 .red{
 	color: #ff0000;
 }
+.right{
+	text-align: right;
+}
+.text1{
+	font-size: 17px;
+}
+.italic{
+	font-style: italic;
+}
+.decoration{
+	text-decoration: underline;
+}
+.center{
+	text-align: center;
+}
+.bigtext{
+	font-size: 25px;
+	color: #333333;
+}
+.through{
+	text-decoration: line-through;
+}
+.fontnew{
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.shadow{
+	text-shadow: 0.5px 0.5px 0.5px #000000;
+}
